@@ -13,26 +13,36 @@ body {
 }
 
 .header {
-    text-align: center;
+    text-align: left; /* Ustawienie tekstu po prawej stronie */
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .header h1 {
-    font-size: 36px;
+    font-size: 72px; /* Zmień rozmiar czcionki dla "Paweł" tutaj */
+    font-weight: bold;
     margin: 0;
+    line-height: 0.8; /* Ustawienie mniejszej wysokości linii, aby "P" i "Ł" były pod sobą */
+}
+
+.header h1 span {
+    font-size: 48px; /* Zmień rozmiar czcionki dla "Przybyłek" tutaj */
 }
 
 .contact {
+    text-align: left; /* Ustawienie tekstu po lewej stronie */
     margin-top: 10px;
 }
 
 .contact p {
     margin: 5px 0;
+    font-size: 18px;
 }
 
 .contact a {
     color: #000;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .main {
@@ -48,8 +58,8 @@ body {
 }
 
 .left {
-    width: 30%;
-    background-color: #f9f9f9;
+    width: 30%; /* Ustawienie szerokości lewej części */
+    background-color: #e0e0e0; /* Zmiana koloru tła lewej części */
 }
 
 .right {
@@ -63,8 +73,11 @@ section {
 h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    border-bottom: 2px solid #000;
-    padding-bottom: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px; /* Bardziej zaokrąglone rogi */
+    text-align: center; /* Wyśrodkowanie tytułów sekcji */
 }
 
 ul {
@@ -100,25 +113,13 @@ footer a {
 }
 
 /* Additional styles to match the image exactly */
-.header h1 {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.contact p {
-    font-size: 18px;
-}
-
-.contact a {
-    font-size: 18px;
-}
-
 .left section h2, .right section h2 {
     font-size: 20px;
     background-color: #333;
     color: #fff;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px; /* Bardziej zaokrąglone rogi */
+    text-align: center; /* Wyśrodkowanie tytułów sekcji */
 }
 
 .left ul li, .right .experience p, .right .education p, .right .activities p {
