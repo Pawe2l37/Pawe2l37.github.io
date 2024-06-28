@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paweł Przybyłek - CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh; margin: 0;">
 <h1>Landing Page</h1>
 
 <p> Welcome to my little space,<br>
@@ -12,8 +18,18 @@
     I promise you, there's so much more.<br>
     Stay a while, come back soon,<br>
     Underneath the coding moon.</p>
-<!-- Dodaj link do podstrony -->
-<a href="CV.html">My CV</a>
 
+
+<section style="max-width: 600px; margin: 0;">
+    <h2>
+        <a href="CV.html" style="color: red;" onmousedown="this.style.color='green'"><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg" alt="PL" style="width: 40px; height: 25px;"> Moje CV</a> | 
+        <a href="CV_EN.html" style="color: red;" onmousedown="this.style.color='green'"><img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="EN" style="width: 40px; height: 25px;"> My CV</a>
+    </h2>
+</section>
+
+<div style="flex-grow: 1;"></div>
 </body>
+<footer style="background-color: #f4f4f4; padding: 10px 0; text-align: center;">
+    <p>Made with love (and probably lots of AI) by Paweł Przybyłek</p>
+</footer>
 </html>
