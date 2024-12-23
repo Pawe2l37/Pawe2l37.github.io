@@ -2,160 +2,51 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000;
+    color: #fff;
 }
 
-.container {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
 
-.header {
-    text-align: left; /* Ustawienie tekstu po prawej stronie */
-    margin-bottom: 20px;
-    width: 100%;
+.project {
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    text-align: center;
 }
 
-.header h1 {
-    font-size: 72px; /* Zmień rozmiar czcionki dla "Paweł" tutaj */
-    font-weight: bold;
-    margin: 0;
-    line-height: 0.8; /* Ustawienie mniejszej wysokości linii, aby "P" i "Ł" były pod sobą */
-}
-
-.header h1 span {
-    font-size: 48px; /* Zmień rozmiar czcionki dla "Przybyłek" tutaj */
-}
-
-.contact {
-    text-align: left; /* Ustawienie tekstu po lewej stronie */
-    margin-top: 10px;
-}
-
-.contact p {
-    margin: 5px 0;
-    font-size: 18px;
-}
-
-.contact a {
-    color: #000;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.main {
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.left, .right {
-    padding: 50px;
-}
-
-.left {
-    width: 30%; /* Ustawienie szerokości lewej części */
-    background-color: #e0e0e0; /* Zmiana koloru tła lewej części */
-}
-
-.right {
-    width: 70%;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 12px;
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 10px; /* Bardziej zaokrąglone rogi */
-    text-align: center; /* Wyśrodkowanie tytułów sekcji */
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
+.project h2 {
     margin-bottom: 10px;
 }
 
-.experience, .education, .activities {
-    margin-bottom: 20px;
-}
-
-.experience h3, .education h3, .activities h3 {
-    font-size: 20px;
-    margin: 0;
-}
-
-.experience p, .education p, .activities p {
-    margin: 5px 0;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-}
-
-footer a {
-    color: #000;
-    text-decoration: none;
-}
-
-/* Additional styles to match the image exactly */
-.left section h2, .right section h2 {
-    font-size: 20px;
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    border-radius: 10px; /* Bardziej zaokrąglone rogi */
-    text-align: center; /* Wyśrodkowanie tytułów sekcji */
-}
-
-.left ul li, .right .experience p, .right .education p, .right .activities p {
-    font-size: 16px;
-}
-
-.left ul li::before {
-    content: '•';
-    color: #333;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-.right .experience h3, .right .education h3, .right .activities h3 {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.right .experience p, .right .education p, .right .activities p {
-    font-size: 16px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-    color: gray; /* Zmiana koloru tekstu na szary */
-    position: static; /* Ustawienie footera na normalne położenie */
-    bottom: 0;
+.project progress {
     width: 100%;
-    background-color: #f4f4f4; /* Dodanie tła, aby tekst był lepiej widoczny */
-    padding: 10px 0; /* Dodanie paddingu dla lepszego wyglądu */
+    margin-bottom: 10px;
 }
 
-footer p {
-    font-size: 16px;
-    margin: 0; /* Usunięcie domyślnego marginesu */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
 }
