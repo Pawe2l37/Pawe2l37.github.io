@@ -14,30 +14,40 @@
         </nav>
     </header>
     <main>
-        <section class="project">
-            <h2>KRD - Automatyzacja procesu wysyłania raportów</h2>
-            <progress value="70" max="100"></progress>
-            <p>Status: Anulowane</p>
-            <a href="krd.html">Więcej informacji</a>
-        </section>
-        <section class="project">
-            <h2>Optymalizacja systemu zarządzania CV</h2>
-            <progress value="90" max="100"></progress>
-            <p>Status: Oczekujące</p>
-            <a href="cv_management.html">Więcej informacji</a>
-        </section>
-        <section class="project">
-            <h2>Analiza danych z systemów obsługujących czas pracy i dane GPS</h2>
-            <progress value="20" max="100"></progress>
-            <p>Status: W trakcie</p>
-            <a href="gps_analysis.html">Więcej informacji</a>
-        </section>
-        <section class="project">
-            <h2>System do zarządzania zamówieniami w kwiaciarni</h2>
-            <progress value="60" max="100"></progress>
-            <p>Status: W trakcie</p>
-            <a href="florist_orders.html">Więcej informacji</a>
-        </section>
+        <div class="cv-links">
+            <a href="CV.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg" alt="PL" style="width: 40px; height: 25px;"> Moje CV
+            </a>
+            <a href="CV_EN.html">
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt="EN" style="width: 40px; height: 25px;"> My CV
+            </a>
+        </div>
+        <div>
+            <section class="project florist">
+                <h2>System do zarządzania zamówieniami w kwiaciarni</h2>
+                <progress value="60" max="100" class="progress-in-progress"></progress>
+                <p>Status: W trakcie</p>
+                <a href="projects/florist_orders.html">Więcej informacji</a>
+            </section>
+            <section class="project data-analysis">
+                <h2>Analiza danych z systemów obsługujących czas pracy i dane GPS</h2>
+                <progress value="20" max="100" class="progress-in-progress"></progress>
+                <p>Status: W trakcie</p>
+                <a href="projects/gps_analysis.html">Więcej informacji</a>
+            </section>
+            <section class="project cv-management">
+                <h2>Optymalizacja systemu zarządzania CV</h2>
+                <progress value="90" max="100" class="progress-pending"></progress>
+                <p>Status: Oczekujące</p>
+                <a href="projects/cv_management.html">Więcej informacji</a>
+            </section>
+            <section class="project krd canceled">
+                <h2>KRD - Automatyzacja procesu wysyłania raportów</h2>
+                <progress value="70" max="100" class="progress-cancelled"></progress>
+                <p>Status: Anulowane</p>
+                <a href="projects/krd.html">Więcej informacji</a>
+            </section>
+        </div>
     </main>
     <footer>
         <p>Made with love (and probably lots of AI) by Paweł Przybyłek</p>

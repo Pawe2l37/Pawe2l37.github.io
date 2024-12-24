@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left, .right {
+    padding: 50px;
+}
+
+.left {
+    width: 33.33%;
+    background-color: #e0e0e0;
+    border-right: 2px solid #ccc;
+}
+
+.right {
+    width: 66.67%;
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 0.8;
+}
+
+.header h1 span {
+    font-size: 48px;
+}
+
+.header-bar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact, .experience, .education, .activities {
+    margin-bottom: 20px;
+}
+
+.contact p, .experience p, .education p, .activities p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.contact a, .experience a, .education a, .activities a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact h2, .skills h2, .languages h2, .certificates h2, .interests h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+} 

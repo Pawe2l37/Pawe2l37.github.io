@@ -22,14 +22,14 @@ nav a {
 
 main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 
 .project {
+    width: 80%;
     max-width: 600px;
-    margin: 20px;
+    margin: 20px 0;
     padding: 20px;
     background-color: #222;
     border-radius: 10px;
@@ -45,8 +45,44 @@ main {
     margin-bottom: 10px;
 }
 
+.progress-in-progress {
+    color: blue;
+}
+
+.progress-pending {
+    color: orange;
+}
+
+.progress-cancelled {
+    color: gray;
+}
+
+.canceled {
+    background-color: #555;
+}
+
 footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
+}
+
+.cv-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cv-links a {
+    color: red;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.cv-links a:hover {
+    color: green;
 }
