@@ -15,7 +15,7 @@ header {
 }
 
 nav a {
-    color: #37ec76;
+    color: #3461df;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -102,4 +102,20 @@ footer {
 
 .cv-links a:hover {
     color: green;
+}
+
+.project a {
+    color: #07d011;
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: green;
+}
+
+.project a:visited {
+    color: rgb(220, 7, 7);
+}
+.project a:visited:hover {
+    color: rgb(249, 39, 39);
 }
