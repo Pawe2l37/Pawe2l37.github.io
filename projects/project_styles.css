@@ -54,3 +54,8 @@ footer {
 .back-button:hover {
     background-color: #555;
 }
+
+.project ul {
+    text-align: left;
+    padding-left: 20px;
+}
