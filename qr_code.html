@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kod QR - CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .qr-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+            padding: 40px 20px;
+        }
+        
+        .qr-container img {
+            max-width: 500px;
+            width: 90%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(52, 97, 223, 0.3);
+            background-color: white;
+            padding: 20px;
+        }
+        
+        .qr-container h2 {
+            margin-bottom: 30px;
+            color: #3461df;
+        }
+        
+        .back-button {
+            margin-top: 30px;
+            padding: 12px 30px;
+            background-color: #3461df;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .back-button:hover {
+            background-color: #2851c7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paweł Przybyłek</h1>
+        <nav>
+            <a href="index_EN.html">English</a>
+        </nav>
+    </header>
+    <main>
+        <div class="qr-container">
+            <h2>Kod QR do mojego CV</h2>
+            <img src="QRCV.png" alt="Kod QR - CV Paweł Przybyłek">
+            <a href="index.html" class="back-button">Wróć do strony głównej</a>
+        </div>
+    </main>
+    <footer>
+        <p>Made with love (and probably lots of AI) by Paweł Przybyłek</p>
+    </footer>
+</body>
+</html>
+

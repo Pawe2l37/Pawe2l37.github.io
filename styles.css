@@ -20,6 +20,19 @@ nav a {
     margin-left: 20px;
 }
 
+nav a.qr-button {
+    background-color: #3461df;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+nav a.qr-button:hover {
+    background-color: #2851c7;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -38,16 +51,24 @@ main {
     position: relative;
 }
 
-.project.krd::after {
+.project.canceled::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(135, 43, 43, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     pointer-events: none;
+}
+
+.project.canceled {
+    opacity: 0.7;
+}
+
+.progress-completed {
+    color: green;
 }
 
 .project h2 {

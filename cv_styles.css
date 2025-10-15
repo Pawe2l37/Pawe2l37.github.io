@@ -89,4 +89,176 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #f4f4f4;
+}
+
+footer a {
+    color: #3461df;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #2851c7;
+    text-decoration: underline;
+}
+
+footer a.download-cv {
+    background-color: #3461df;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+footer a.download-cv:hover {
+    background-color: #2851c7;
+    text-decoration: none;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+.language-switcher a {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.language-switcher img {
+    width: 40px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+/* Responsywność dla urządzeń mobilnych */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+    
+    .left, .right {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .left {
+        border-right: none;
+        border-bottom: 2px solid #ccc;
+    }
+    
+    .header h1 {
+        font-size: 48px;
+    }
+    
+    .header h1 span {
+        font-size: 32px;
+    }
+    
+    .contact p, .experience p, .education p, .activities p {
+        font-size: 16px;
+    }
+    
+    .contact a, .experience a, .education a, .activities a {
+        font-size: 16px;
+    }
+    
+    .language-switcher {
+        top: 5px;
+        right: 5px;
+    }
+    
+    .language-switcher a {
+        padding: 8px;
+        font-size: 16px;
+    }
+    
+    .language-switcher img {
+        width: 30px;
+        height: 20px;
+        margin-right: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .left, .right {
+        padding: 15px;
+    }
+    
+    .header h1 {
+        font-size: 36px;
+    }
+    
+    .header h1 span {
+        font-size: 24px;
+    }
+    
+    .header-bar {
+        font-size: 16px;
+        padding: 8px 0;
+    }
+    
+    .contact p, .experience p, .education p, .activities p {
+        font-size: 14px;
+    }
+    
+    .contact a, .experience a, .education a, .activities a {
+        font-size: 14px;
+    }
+    
+    ul {
+        padding-left: 20px;
+    }
+    
+    ul li {
+        font-size: 14px;
+    }
+    
+    .language-switcher {
+        top: 3px;
+        right: 3px;
+    }
+    
+    .language-switcher a {
+        padding: 6px;
+        font-size: 14px;
+    }
+    
+    .language-switcher img {
+        width: 25px;
+        height: 17px;
+        margin-right: 5px;
+    }
+    
+    footer {
+        padding: 15px 10px;
+    }
+    
+    footer p {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+    
+    footer a.download-cv {
+        padding: 6px 12px;
+        font-size: 12px;
+        margin-left: 5px;
+        display: inline-block;
+        margin-top: 5px;
+    }
 } 
